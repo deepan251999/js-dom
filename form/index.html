@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   <fieldset><legend>FORM</legend>
+        <label >FIRST NAME</label>
+        <form action="">
+        <input type="text" id="fname" required onsubmit="checkname()">
+        <label >LAST NAME</label>
+        <input type="text" id="lname" required>
+        <label >EMAIL</label>
+        <input type="email" id="email" required> 
+        <label >password</label>
+        <input type="password" id="password" required oninput="check()">
+        <label >conform-password</label>
+        <input type="password" id="conform-password" required oninput="check()"><span id="match"></span>
+        <button type="submit" >submit</button>
+       </form>
+   </fieldset>
+
+    <script src="./index.js"></script>
+</body>
+</html>
