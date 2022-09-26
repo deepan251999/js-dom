@@ -1,0 +1,12 @@
+input{
+    display: inline-block;
+    padding: 20px 100px;
+    margin-right: 40px;
+}
+button{
+    padding: 10px 30px;
+    background-color: lightslategray;
+    color: lightcoral;
+    font-size: 20px;
+    cursor: pointer;
+}
