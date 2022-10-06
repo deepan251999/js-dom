@@ -40,7 +40,22 @@
             let header=document.getElementById("lis");     
             header.style.color=color;
            }
+            
+        let ary=["lion","tiger","cow","rabbit","goat"];
+        function listchange() {
+            ary.forEach(event=>{
+            let list=document.createElement('li');
+            list.innerHTML=event;
+            console.log(list);
 
+        let ul=document.getElementById('list-container');
+        ul.appendChild(list);
+        
+        })
+        }
+      
+       
+        document.getElementById("btn").addEventListener('click',listchange);
     <script/>
 </body>
 </html>
